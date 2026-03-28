@@ -1,4 +1,4 @@
-# Lab 04 – Port Security (Static MAC Address)
+# Port Security (Static MAC Address)
 
 ## Overview
 
@@ -54,17 +54,6 @@ Switch# show port-security
 # View detailed status for Fa0/3
 Switch# show port-security interface fa0/3
 ```
-
----
-
-## Test Results
-
-| Test | Result |
-|---|---|
-| Network Admin PC pings other hosts | Success |
-| Unauthorized laptop connects to Fa0/3 |  Port shuts down |
-| Violation count increments | Count = 1 |
-| Port status changes to Secure-shutdown | Confirmed |
 
 ---
 
